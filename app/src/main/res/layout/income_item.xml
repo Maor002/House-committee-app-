@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="15dp"
+    android:id="@+id/parent_layout"
+    android:background="@drawable/bg_income"
+    android:alpha="0.9339"
+    android:elevation="20dp"
+    android:paddingEnd="10dp"
+    android:layout_margin="7dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/image"
+        android:background="@android:color/transparent"
+        android:src="@drawable/dollar"/>
+
+    <TextView
+        android:id="@+id/Reason"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/image"
+        android:fontFamily="@font/regular"
+        android:text="סיבה... "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Reason"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@id/image"
+        android:fontFamily="@font/regular"
+        android:text="כמות : "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/name01"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@id/image"
+        android:fontFamily="@font/regular"
+        android:text="שם הדייר : "
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/date01"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="135dp"
+        android:layout_toLeftOf="@id/image"
+        android:fontFamily="@font/regular"
+        android:text="תאריך: "
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/Delete01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount"
+        android:layout_toLeftOf="@id/date01"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/regular"
+        android:src="@drawable/check" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Delete01"
+        android:layout_alignEnd="@+id/Delete01"
+        android:fontFamily="@font/regular"
+        android:text="   להסרה "
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+        android:textSize="8sp" />
+</RelativeLayout>

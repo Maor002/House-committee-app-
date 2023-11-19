@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shabakov.maor_work">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        >
+
+        <activity android:name=".INCOME_EXPENSE.All_income_expense"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="true"/>
+        <activity
+            android:name=".INCOME_EXPENSE.Income_expenses"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="true"/>
+        <activity
+            android:name=".FORUM.forum_chet"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".FAULTS.Faults"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".ui.HOME_PAGE.Admin_home_page1"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".Tenants_debts.admin_list_tenants"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".LOGIN.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".ui.HOME_PAGE.HomeActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".MODELS.CustomToast"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+        <activity
+            android:name=".LOGIN.SignIn"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ועד בית בקליק</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">לחץ להירשם</string>
+    <string name="login">התחבר</string>
+    <string name="building_id">זיהוי בניין - לדוגמה: קרליבך 24,תל אביב</string>
+    <string name="password">סיסמה</string>
+    <string name="e_mail">אימייל</string>
+    <string name="tag">בואו להצטרף אלינו</string>
+    <string name="swipe_right_for_login">לחץ להתחבר</string>
+    <string name="register">הירשם</string>
+    <string name="re_type_password">סיסמה חוזרת</string>
+    <string name="your_name">שם מלא</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO1</string>
+    <string name="box"> אני הועד בית (זה פותח בניין חדש)</string>
+    <string name="welcome">ברוך הבא ....</string>
+    <string name="logout">התנתק</string>
+    <string name="to_pay">   יש לתשלום:  </string>
+    <string name="דיירים">רשימת דיירים:</string>
+    <string name="title_activity_admin_page1">admin_page1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="save">לשמור</string>
+    <string name="forum">פורום דיירים</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".FAULTS.Faults">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="@drawable/bg_shape"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/loggedInTextView2"
+        android:layout_width="299dp"
+        android:layout_height="81dp"
+        android:fontFamily="@font/regular"
+        android:padding="20dp"
+        android:text="רשימת תקלות:"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/addfaults"
+        android:layout_width="220dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/regular"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="להוספת תקלות לחץ כאן: "
+
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerv_view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerv_view2"
+        android:layout_width="410dp"
+        android:layout_height="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <ImageButton
+        android:id="@+id/Back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/previous" />
+
+    <Button
+        android:id="@+id/addfaults2"
+        android:layout_width="80dp"
+        android:layout_height="63dp"
+        android:layout_toLeftOf="@id/addfaults"
+        android:background="@drawable/circle2"
+        android:text="+"
+        android:textSize="32dp"
+        app:layout_constraintRight_toLeftOf="@id/addfaults"
+        app:layout_constraintTop_toTopOf="@id/addfaults" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0.4"
+        android:background="@drawable/repair"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Back2"
+        app:layout_constraintVertical_bias="0.307"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="BottomAppBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

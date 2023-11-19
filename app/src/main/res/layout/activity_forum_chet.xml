@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    tools:context=".FORUM.forum_chet"
+    android:layoutDirection="rtl"
+    android:background="@drawable/wallpaper"
+    android:windowSoftInputMode="adjustResize">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <ListView
+        android:layoutDirection="rtl"
+        android:layout_width="match_parent"
+        android:id="@+id/messages_view2"
+        android:layout_weight="2"
+        android:divider="#fff"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="כתוב הודעה כאן"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/send2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/send"/>
+    </LinearLayout>
+
+
+</LinearLayout>

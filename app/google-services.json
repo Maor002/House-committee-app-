@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724696973780",
+    "project_id": "maor-work",
+    "storage_bucket": "maor-work.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724696973780:android:14d1acf843dd685c059641",
+        "android_client_info": {
+          "package_name": "com.shabakov.maor_work"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724696973780-56jrtafkh57a8m8lg3ulms0jvr0cd7lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3bFkXDKaMuHzknq_CnsE8VzcRWFl_Nvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724696973780-56jrtafkh57a8m8lg3ulms0jvr0cd7lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

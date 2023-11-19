@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="15dp"
+    android:id="@+id/parent_layout"
+    android:background="@drawable/shadow"
+    android:elevation="20dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/image2"
+        android:src="@drawable/warning"/>
+
+    <EditText
+        android:id="@+id/title2"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/image2"
+        android:fontFamily="@font/regular"
+        android:hint="נושא... "
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/content2"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title2"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@id/image2"
+        android:fontFamily="@font/regular"
+        android:hint="מה התקלה : "
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content2"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@id/image2"
+        android:fontFamily="@font/regular"
+        android:hint="שם הדייר : "
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/fixed_button2"
+        android:layout_width="51dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/regular"
+        android:src="@drawable/vv" />
+</RelativeLayout>
